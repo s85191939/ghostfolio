@@ -32,6 +32,7 @@ import { AuthDeviceModule } from './auth-device/auth-device.module';
 import { AuthModule } from './auth/auth.module';
 import { CacheModule } from './cache/cache.module';
 import { AiModule } from './endpoints/ai/ai.module';
+import { AnalyticsModule } from './endpoints/analytics/analytics.module';
 import { ApiKeysModule } from './endpoints/api-keys/api-keys.module';
 import { AssetsModule } from './endpoints/assets/assets.module';
 import { BenchmarksModule } from './endpoints/benchmarks/benchmarks.module';
@@ -63,6 +64,7 @@ import { UserModule } from './user/user.module';
     AccessModule,
     AccountModule,
     AiModule,
+    AnalyticsModule,
     ApiKeysModule,
     AssetModule,
     AssetsModule,
