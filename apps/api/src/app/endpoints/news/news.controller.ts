@@ -20,7 +20,7 @@ import { REQUEST } from '@nestjs/core';
 import { NewsService } from './news.service';
 import type { CreateAlertDto, UpdateAlertDto } from './interfaces/news.interface';
 
-@Controller('api/v1/news')
+@Controller('news')
 @UseGuards(AuthGuard('jwt'))
 export class NewsController {
   public constructor(
